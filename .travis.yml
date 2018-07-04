@@ -4,7 +4,3 @@ node_js:
 cache:
   directories:
     - "node_modules"
-
-test:
-  - npm install
-  - ./node_modules/@angular/cli/bin/ng test --single-run=true --browsers PhantomJS --watch=false
